@@ -207,24 +207,23 @@
                 <p>✉ agabstrato@gmail.com</p>
             </div>
 
-            <form> <!--action="envia_fale.php" method="post" name="form"-->
+            <form action="https://formsubmit.co/agabstrato@gmail.com" method="post"> <!--action="envia_fale.php" method="post" name="form"-->
                 <div class="mensagem-contato">
 
                     <div class="info-contato-bloco1">
                         <div class="nome-contato">
-                            <input type="text" name="nome" id="nome">
+                            <input type="text" name="nome" id="nome" required>
                         </div>
-                        <div class="assunto-contato">
-                            <input type="text" name="assunto" id="assunto">
+                        <div class="telefone-contato">
+                            <input type="tel" name="telefone" id="telefone" required>
                         </div>
                         <div class="email-contato">
-                            <input type="email" name="email" id="email">
+                            <input type="email" name="email" id="email" required>
                         </div>
                     </div>
 
                     <div class="texto-contato">
-                        <label></label>
-                        <input type="text" name="mensagem" id="mensagem">
+                        <input type="message" name="mensagem" id="mensagem">
                     </div>
 
                     <div class="botao-enviar-contato">
