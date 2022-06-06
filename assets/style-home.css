@@ -11,9 +11,38 @@ body {
     margin: 0;
 }
 
+header {
+    position: fixed;
+    width: 100%;
+}
+
+main {
+    user-select: none;
+}
+
+footer {
+    user-select: none;
+}
+
+.home {
+    user-select: none;
+}
+
+.nossos-servicos {
+    user-select: none;
+}
+
+.titulo-contato {
+    user-select: none;
+}
+
+.subtitulo-contato {
+    user-select: none;
+}
+
 .home {
     width: 100%;
-    height: 768px;
+    height: 700px;
     background-image: url(background/plano\ de\ fundo-01-01.png);
 }
 
@@ -100,7 +129,7 @@ a:hover {
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-end;
-    height: 400px;
+    height: 450px;
     padding: 47px;
 }
 
@@ -532,4 +561,19 @@ footer {
     line-height: 24px;
     text-align: center;
     color: #FFFFFF;
+}
+
+.seta-home {
+    position: relative;
+}
+.seta-home .seg {
+    visibility: hidden;
+    opacity: 0;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.seta-home:hover .seg {
+    visibility: visible;
+    opacity: 1;
 }
