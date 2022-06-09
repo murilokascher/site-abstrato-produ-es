@@ -12,8 +12,14 @@ body {
 }
 
 header {
-    position: fixed;
     width: 100%;
+}
+
+.header-fundo-fixo {
+    position: fixed;
+    top: 0px;
+    background-color: #303030;
+    transition: all .2s ease-in-out;
 }
 
 main {
@@ -104,6 +110,7 @@ a:hover {
     height: 0px;
     border: 1px solid #FFFFFF;
     border-radius: 50px;
+    margin-bottom: 10px;
 }
 
 .corpo-home {
@@ -129,7 +136,7 @@ a:hover {
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-end;
-    height: 450px;
+    height: 330px;
     padding: 47px;
 }
 
@@ -561,19 +568,4 @@ footer {
     line-height: 24px;
     text-align: center;
     color: #FFFFFF;
-}
-
-.seta-home {
-    position: relative;
-}
-.seta-home .seg {
-    visibility: hidden;
-    opacity: 0;
-    position:absolute;
-    top:0;
-    left:0;
-}
-.seta-home:hover .seg {
-    visibility: visible;
-    opacity: 1;
 }
