@@ -2,30 +2,27 @@
 $('header a').click(function(e){
 	e.preventDefault();
 	var id = $(this).attr('href'),
-			menuHeight = $('header').innerHeight(),
 			targetOffset = $(id).offset().top;
 	$('html, body').animate({
-		scrollTop: targetOffset - menuHeight
+		scrollTop: targetOffset
 	}, 500);
 });
 
 $('footer a').click(function(e){
 	e.preventDefault();
 	var id = $(this).attr('href'),
-			menuHeight = $('header').innerHeight(),
 			targetOffset = $(id).offset().top;
 	$('html, body').animate({
-		scrollTop: targetOffset - menuHeight
+		scrollTop: targetOffset
 	}, 500);
 });
 
 $('.seta-home a').click(function(e){
 	e.preventDefault();
 	var id = $(this).attr('href'),
-			menuHeight = $('.seta-home').innerHeight(),
 			targetOffset = $(id).offset().top;
 	$('html, body').animate({
-		scrollTop: targetOffset - menuHeight
+		scrollTop: targetOffset
 	}, 500);
 });
 

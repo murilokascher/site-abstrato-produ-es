@@ -14,32 +14,29 @@
 
     <div class="home" id="homepage">
 
-        <header class="header-fundo-fixo" id="background-fixo">
-            <div class="header-menu">
-                <div class="logo-cabecalho">
-                    <img id="img-logo-cabecalho" src="assets/logo-abstrato-15.png" alt="logo-abstrato" width="262" height="66">
-                </div>
+        <header id="background-fixo">
+            <div class="menu header-fundo-fixo">
+                <img id="img-logo-cabecalho" src="assets/logo-abstrato-15.png" alt="logo-abstrato" width="262" height="66">
                 
-                    <ul class="itens-menu-cabecalho">
-                        <a href="#homepage">HOME</a>
-                        <a href="#homepage">SOBRE NÓS</a>
-                        <a href="#servicos">SERVIÇOS</a>
-                        <a href="#homepage">BLOG</a>
-                        <a href="#homepage">PORTFÓLIO</a>
-                        <a href="#contato">CONTATO</a>
-                    </ul>
-            </div>
+                <ul class="itens-menu-cabecalho">
+                    <a href="#homepage">HOME</a>
+                    <a href="#homepage">SOBRE NÓS</a>
+                    <a href="#servicos">SERVIÇOS</a>
+                    <a href="#homepage">BLOG</a>
+                    <a href="#homepage">PORTFÓLIO</a>
+                    <a href="#contato">CONTATO</a>
+                </ul>
 
-            <div class="linha-cabecalho">
-                <hr id="linha-cabecalho">
+                <hr class="linha-cabecalho" id="linha-cabecalho">
+
             </div>
         </header>
 
             <div class="conteudo-home">
-                <p class="texto-conteudo-home">O ONTEM É PASSADO</p>
-                <p class="texto-conteudo-home">O HOJE É AGORA</p>
-                <p class="texto-conteudo-home">E O FUTURO,</p>
-                <p class="texto-conteudo-home"><b>A GENTE ESCREVE JUNTO</b></p>
+                <p id="texto-conteudo-home">O ONTEM É PASSADO</p>
+                <p id="texto-conteudo-home">O HOJE É AGORA</p>
+                <p id="texto-conteudo-home">E O FUTURO,</p>
+                <p id="texto-conteudo-home"><b>A GENTE ESCREVE JUNTO</b></p>
             </div>
 
             <div class="seta-home">
@@ -53,10 +50,7 @@
 
             <div class="titulo-producao">
                 <p>PRODUÇÃO DO <b>INÍCIO</b> AO <b>FIM</b></p>
-            </div>
-
-            <div class="linha-producao">
-                <hr id="linha-producao">
+                <hr class="linha-producao" id="linha-producao">
             </div>
 
             <div class="etapas-producao">
@@ -204,26 +198,26 @@
             <div class="endereco-contato">
                 <p>📍MOOCA, SÃO PAULO - SP</p>
                 <p>📞 (11) 96892-1104</p>
-                <p>✉ agabstrato@gmail.com</p>
+                <p>📧 agabstrato@gmail.com</p>
             </div>
 
             <form class="form" method="post" action="./assets/php/email.php"> <!--action="envia_fale.php" method="post" name="form"-->
                 <div class="mensagem-contato">
 
                     <div class="info-contato-bloco1">
-                        <div class="nome-contato">
-                            <input type="text" name="name" id="nome" placeholder="*nome" required>
+                        <div class="nome-contato info-contato-item">
+                            <input type="text" name="name" id="nome" placeholder=" *nome" required>
                         </div>
-                        <div class="telefone-contato">
-                            <input type="tel" name="telefone" id="telefone" placeholder="*telefone" required>
+                        <div class="telefone-contato info-contato-item">
+                            <input type="tel" name="telefone" id="telefone" placeholder=" *telefone" required>
                         </div>
-                        <div class="email-contato">
-                            <input type="email" name="email" id="email" placeholder="email para contato" required>
+                        <div class="email-contato info-contato-item">
+                            <input type="email" name="email" id="email" placeholder=" *email para contato" required>
                         </div>
                     </div>
 
                     <div class="texto-contato">
-                        <input type="message" name="mensagem" id="mensagem" placeholder="Escreva sua mensagem">
+                        <input type="message" name="mensagem" id="mensagem" placeholder=" *Escreva sua mensagem">
                     </div>
 
                     <div class="botao-enviar-contato">
@@ -260,12 +254,12 @@
 
         <div class="footer-menu">
             <ul class="itens-menu-rodape">
-                <a href="#homepage">HOME</a>
-                <a href="#homepage">SOBRE NÓS</a>
-                <a href="#servicos">SERVIÇOS</a>
-                <a href="#homepage">BLOG</a>
-                <a href="#homepage">PORTFÓLIO</a>
-                <a href="#contato">CONTATO</a>
+                <a id="iten-rodape" href="#homepage">HOME</a>
+                <a id="iten-rodape" href="#homepage">SOBRE NÓS</a>
+                <a id="iten-rodape" href="#servicos">SERVIÇOS</a>
+                <a id="iten-rodape" href="#homepage">BLOG</a>
+                <a id="iten-rodape" href="#homepage">PORTFÓLIO</a>
+                <a id="iten-rodape" href="#contato">CONTATO</a>
             </ul>
         </div>
 
